@@ -97,11 +97,15 @@
     .about-con2 h3{
         text-align: center;
     }
+    .about-con2 button{
+        place-items: center;
+    
+    }
 }
 @media All and (max-width: 473px){
     .about-con1 img{
         height: 15rem;
-        width: 20rem;
+        width: 100%;
     }
     .about-con2 p{
         text-align: start;
