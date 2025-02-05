@@ -1,10 +1,11 @@
 .hero{
     width: 100%;
-    min-height: 125vh;
+    min-height: 100vh;
     position: relative;
     place-items: center;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     
    
 
@@ -232,6 +233,12 @@
     bottom: 7rem;
     right: 6rem;
 }
+.hero-con5{
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
 .hero-con5 table tr {
     gap: 6rem;
     justify-content: space-between;
@@ -280,22 +287,24 @@
   
     color: var(--white--);
 }
-.hero-b2 .herohire{
+.hero-btn .herohire{
    background-image: var(--linear--);
     height: 3rem;
     width: 7rem;
     place-items: center;
     backdrop-filter: blur(60px);
 }
-.hero-b2 .herohir{
+.hero-btn .herohir{
     background-color: rgba(0, 0, 255, 0.164);
      height: 3rem;
      width: 7rem;
      place-items: center;
      backdrop-filter: blur(60px);
  }
-.hero-b1 button,.hero-b2 button{
-   
+ .hero-btn a,.hero-btn a{
+   place-items: center;
+   display: flex;
+   justify-content: center;
     background-color: transparent;
     border: none;
     border-radius: 40px;
@@ -459,11 +468,16 @@
         font-size: 13px;
         gap: 2px;
     }
-    .hero-b2 .herohire{
+    .hero-btn .herohire{
         width: 5rem;
     }
-    .hero-b2 .herohir{
+    .hero-btn .herohir{
         width: 5rem;
+        font-size: 12px;
+    }
+    .hero-btn .herohire{
+        width: 5rem;
+        font-size: 12px;
     }
     .hero{
         min-height: 100vh;

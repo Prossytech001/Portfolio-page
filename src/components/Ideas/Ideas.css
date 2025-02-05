@@ -167,7 +167,7 @@
 @media all and (max-width: 746px){
     .slide-wrapper .slide-con .slides{
         width: 100%;
-    height: 20rem;
+    height: auto;
     }
     
     .ideacon .idhk{

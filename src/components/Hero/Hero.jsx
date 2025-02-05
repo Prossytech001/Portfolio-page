@@ -11,7 +11,7 @@ import '../Navbar/Navbar.jsx';
 import { IoExtensionPuzzle } from "react-icons/io5";
 import { PiTriangleFill } from "react-icons/pi";
 import { FaSquare } from "react-icons/fa";
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 
 
@@ -59,8 +59,8 @@ const Hero = () => {
       className="herosbut">
       <div className="hero-btn">
                 
-            <div className="hero-b2"><Link to='/contact' ><button className='herohire'>Hire me</button></Link></div>
-            <div className="hero-b2"> <Link to='/featuredpost' ><button className='herohir'>My works</button></Link></div>
+      <Link to='/contact' className='herohire'>Hire me</Link>
+      <Link to='/featuredpost' className='herohir' > My works</Link>
                 
              </div>
              
