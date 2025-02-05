@@ -130,6 +130,10 @@
 .hero-con1 h1{
     color: var(--white--);
     font-size: 24px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     
   
 }
@@ -174,6 +178,10 @@
 .hero-con1 h3{
     font-size: 23px;
     color: var(--white--);
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .hero-con2{
     place-items: center;
