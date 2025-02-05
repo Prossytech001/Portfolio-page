@@ -1,0 +1,63 @@
+.Update{
+    background-image: var(--lincircle--);
+    min-height: 60vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.update{
+    place-items: center;
+}
+.update h1{
+    font-size: 25px;
+    color: var(--white--);
+}
+.update h2{
+    font-size: 50px;
+    color: var(--white--);
+}
+.updateinp{
+    place-items: center;
+}
+.updateinp input{
+    height: 3rem;
+    width: 20rem;
+    background-color: var(--bgblack--);
+    border: none;
+    padding: 0 0 0 20px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    color: aliceblue;
+}
+.updateinp button{
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background-image: var(--linear--);
+    border-radius:0 20px  20px 0;
+    color: var(--fontwhite--);
+    font-size: 18px;
+}
+@media (max-width: 469px){
+    .update h1{
+        font-size: 18px;
+        color: var(--white--);
+    }
+    .update h2{
+        font-size: 30px;
+        color: var(--white--);
+    }
+}
+@media (max-width: 444px){
+    .updateinp input{
+        width: 15rem;
+    }
+}
+@media (max-width: 373px){
+    .updateinp input{
+        width: 12rem;
+    }
+    .updateinp button{
+        width: 5rem;
+    }
+}

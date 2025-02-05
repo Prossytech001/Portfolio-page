@@ -1,0 +1,150 @@
+.blog{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 200vh;
+    padding: 6rem 1rem;
+}
+
+
+.blogcontent{
+    place-items: center;
+}
+.blog1 .bh1{
+    color: var(--bleu--);
+    font-size: 40px;
+}
+.blog1 .bh2{
+    color: transparent;
+    font-size: 18px;
+    text-align: center;
+    background-image: var(--linear--);
+    background-clip: text;
+
+}
+.blog1 p{
+    max-width: 50rem;
+    color: var(--white--);
+
+}
+.blog2{
+    width: 100%;
+}
+.blog2 .bl2h1{
+    color: var(--bleu--);
+}
+.blog2 .bl2p{
+    color: var(--white--);
+}
+.blog h1{
+    color: var(--bleu--);
+}
+.blogsyntax h1{
+    color: var(--bleu--);
+}
+.blogsyntax {
+    background-color: var(--code--);
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+}
+.colublue{
+    color: rgb(0, 0, 255);
+}
+code{
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.bolg4syntax:hover{
+    border: 2px solid var(--bleu--);
+    }
+.blogsyntaxs:hover{
+    border: 2px solid var(--bleu--);
+    }
+.blogsyntax:hover{
+    border: 2px solid var(--bleu--);
+    }
+.blog2syntax:hover{
+border: 2px solid var(--bleu--);
+}
+.greenspns{
+    color: green;
+}
+.coloraqua{
+    color: rgb(30, 204, 252);
+}
+.blogsyntaxs{
+    background-color: var(--code--);
+    padding: 1rem;
+    width: 100%;
+position: relative;
+}
+.blogsyntaxs h1{
+    color: var(--bleu--);
+}
+.colorblwon{
+    color: rgb(231, 56, 56);
+}
+.coloryel{
+    color: rgb(197, 197, 58);
+}
+.blog2syntax{
+    background-color: var(--code--);
+    width: 100%;
+    padding: 1rem;
+}
+.blog3{
+    width: 100%;
+}
+.blog3 h1{
+    color: var(--bleu--);
+}
+.blog3 h2{
+    color: var(--bleu--);
+}
+.headbl{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+}
+.blog3 ul{
+    color: var(--white--);
+}
+.bolg4syntax{
+    background-color: var(--code--);
+    width: 100%;
+    padding: 1rem;
+}
+.blog4{
+    width: 100%;
+}
+.blog4 h1{
+    color: var(--bleu--);
+    font-size: 25px;
+    text-align: center;
+}
+.blog4 h2{
+    color: var(--bleu--);
+    font-size: 18px;
+}
+.blousege{
+    background-color: var(--code--);
+    width: 100%;
+    padding: 1rem;
+}
+.blog3fake{
+    background-color: var(--code--);
+    width: 100%;
+    padding: 1rem;
+}
+.blugimg1{
+    width: 100%;
+    height: auto;
+}
+.blugimg1 img{
+    width: 100%;
+}

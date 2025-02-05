@@ -1,0 +1,141 @@
+.pageabout{
+    place-items: center;
+    width: 100%;
+   padding: 5rem  3rem;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pageabot{
+    display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+.pageabout-content{
+   margin-top: 4rem;
+}
+.pageabout-content p{
+    font-size: 15px;
+    color: var( --white--);
+    
+}
+.pag1 h1{
+   background-image: var(--linear--);
+   background-clip: text;
+   color: transparent;
+}
+.pag2 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+ }
+ .pag4 h2{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+ }
+ .pag3 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+ }
+ .pag4 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+ }
+
+ .pageabot2{
+    display: flex;
+   justify-content: space-between;
+   gap: 60px;
+ }
+ .pagimg{
+    height: 33rem;
+    width: 30rem;
+ }
+ .pagimg img{
+    width: 100%;
+    height: 100%;
+ }
+
+    
+
+ .pag1 p{
+    max-width: 30rem;
+    line-height: 30px;
+    margin-top: 20px;
+ }
+ .pag2 p{
+    max-width: 30rem;
+    line-height: 30px;
+    margin-top: 20px;
+ }
+ .pag2{
+    margin-top: 8rem;
+ }
+ .pag4 p{
+    max-width: 30rem;
+    line-height: 30px;
+    margin-top: 30px;
+ }
+ .pag4{
+    margin-top: 8rem;
+ }
+ @media All and (max-width: 800px){
+   .pagimg{
+      height: 20rem;
+    width: 20rem;
+   }
+   .pagimg img{
+      width: 100%;
+      height: 100%;
+   }
+ }
+ @media All and (max-width: 500px){
+   .pagimg{
+      height: 20rem;
+    width: 20rem;
+   }
+   .pageabot{
+      display: block;
+   }
+   .pageabot2{
+      display: block;
+   }
+ }
+ @media All and (max-width: 330px){
+   .pagimg{
+      height: 20rem;
+    width: 20rem;
+   }
+   .pageabot{
+      display: block;
+   }
+   .pageabot2{
+      display: block;
+   }
+   .pageabout-content{
+      padding: 2rem;
+   }
+   .pag1 p{
+      max-width: 20rem;
+      line-height: 30px;
+      margin-top: 20px;
+   }
+   .pag2 p{
+      max-width: 30rem;
+      line-height: 30px;
+      margin-top: 20px;
+   }
+   .pag2{
+      margin-top: 8rem;
+   }
+   .pag4 p{
+      max-width: 30rem;
+      line-height: 30px;
+      margin-top: 30px;
+   }
+ }

@@ -1,0 +1,282 @@
+.contact{
+    background-color: var(--smoke--);
+    width: 100%;
+    height: 170vh;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.contactinfo{
+    background-color: var(--smoke--);
+    height: 30rem;
+    border-radius: 20px;
+    width: 20rem;
+
+}
+
+.contactcon2{
+    display: flex;
+    background-color: var(--bgblack--);
+    height: 40rem;
+    width: 60rem;
+    border-radius: 30px;
+    justify-content: space-between;
+   place-items: center;
+   padding: 0 40px;
+   
+
+}
+.conicn{
+    display: flex;
+    place-items: center;
+    gap: 10px;
+    
+}
+.conicn h4{
+    font-size: 12px;
+    color: var(--white--);
+    font-weight: lighter;
+}
+.contactinfo h1{
+    text-align: center;
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+}
+.contactinfo p{
+    text-align: center;
+    color: var(--white--);
+    font-size: 15px;
+}
+.output{
+  color: rgb(0, 96, 0);
+  text-align: center;
+
+}
+.outpu{
+  color: rgb(240, 7, 7);
+  text-align: center;
+  
+}
+.coin{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--bgblack--);
+    color: var(--bleu--);
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contactcon1{
+    place-items: center;
+}
+.contactcon1 p{
+    font-size: 28px;
+    color: var(--white--);
+}
+.contactcon1 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+}
+.contacticon{
+    margin-top: 3rem;
+    padding: 20px;
+}
+.coninput1{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    place-items: center;
+    justify-content: center;
+}
+.conput1 .lab{
+    position: absolute;
+    top: 30%;
+    left: 15px;
+     transform: translateY(-50%);
+     text-transform: uppercase;
+     color: #293250;
+    
+  }
+  .inpp:focus ~ .lab{
+    display: none;
+   
+    
+  }
+  .inpp:focus{
+    border: 2px solid var(--bleu--);
+  }
+  .inpp:valid ~ .lab{
+   background-image: var(--linear--);
+   background-clip: text;
+   color: transparent;
+    top: 0;
+  }
+  .conput1{
+    position: relative;
+   
+  }
+  .inpp{
+    background-color: var(--smoke--);
+    border: 2px solid var(--grey--);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border-top: none;
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    padding-left: 10px;
+
+  }
+  .conput1 input{
+     width: 15rem;
+     height: 3rem;
+  }
+  .coninput3 textarea{
+    width: 31rem;
+    height: 10rem;
+    background-color: var(--smoke--);
+    border: 2px solid var(--grey--);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border-top: none;
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    padding-left: 10px;
+  }
+  .coninput3 textarea:focus{
+    border: 2px solid var(--bleu--);
+  }
+  .coninput3{
+    
+    place-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .contactinput h1{
+    font-size: 2rem;
+    background-image: var(--linear--);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+.coinbtn{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+.coinbtn input{
+    height: 4rem;
+    width: 7rem;
+    background-image: var(--linear--);
+    color: var(--fontwhite--);
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.coinbtn input:hover{
+    background-image: none;
+    border: 2px solid var(--bleu--);
+    color: var(--bleu--);
+}
+@media All and (max-width: 981px){
+  .contactcon2{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+  }
+  .contactinfo{
+    width: 100%;
+  }
+  .contactinput{
+    width: 100%;
+  }
+  .contact-con{
+    width: 100%;
+  }
+  .coninput{
+    width: 100%;
+  }
+  .coninput1{
+    width: 100%;
+  }
+  .contact{
+    min-height: 100vh;
+  }
+ 
+ 
+}
+@media All and (max-width: 566px){
+  .conput1 input{
+    width: 14rem;
+    height: 3rem;
+ }
+}
+@media All and (max-width: 538px){
+  .conput1 input{
+    width: 13rem;
+    height: 3rem;
+ }
+ .contactcon1 p{
+font-size: 15px;
+ }
+ .contactcon1 h1{
+  font-size: 20px;
+   }
+}
+@media All and (max-width: 509px){
+  .conput1 input{
+    width: 12rem;
+    height: 3rem;
+ }
+}
+@media All and (max-width: 478px){
+  .conput1 input{
+    width: 11rem;
+    height: 3rem;
+ }
+}
+@media All and (max-width: 449px){
+  .conput1 input{
+    width: 10rem;
+    height: 3rem;
+ }
+}
+
+@media All and (max-width: 398px){
+  .conput1 input{
+    width: 9rem;
+    height: 3rem;
+ }
+}
+@media All and (max-width: 366px){
+  .conput1 input{
+    width: 8rem;
+    height: 3rem;
+ }
+}
+@media All and (max-width: 329px){
+  .conput1 input{
+    width: 7rem;
+    height: 3rem;
+ }
+}
+@media All and (max-width: 296px){
+  .conput1 input{
+    width: 6rem;
+    height: 3rem;
+ }
+}

@@ -1,0 +1,157 @@
+.faq{
+    padding: 3rem;
+   
+}
+.faqdrop{
+    width: auto;
+}
+
+.faqh1{
+  font-size: 60px;
+  color: var(--bleu--);
+}
+.dr1{
+    background-color: transparent;
+    width: 41rem;
+    overflow: hidden;
+    height: 4rem;
+    transition: 5s ease-in-out;
+    position: relative;
+    padding: 1rem;
+    border: 2px solid var(--bleu--);
+    border-radius: 20px;
+    
+}
+.dr1 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.dr1 p{
+    max-width: 30rem;
+    color: var(--bleu--);
+}
+#drop1:checked ~ .dr1{
+ height: auto;
+ transition: 5s ease-in-out;
+}
+
+
+
+
+.dr2{
+    background-color: transparent;
+    width: 41rem;
+    overflow: hidden;
+    height: 4rem;
+    transition: 5s ease-in-out;
+    position: relative;
+    padding: 1rem;
+    border: 2px solid var(--bleu--);
+    border-radius: 20px;
+    
+}
+.dr2 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.dr2 p{
+    max-width: 30rem;
+    color: var(--bleu--);
+}
+#drop2:checked ~ .dr2{
+ height: auto;
+ transition: 5s ease-in-out;
+}
+
+#drop2{
+    display: none;
+}
+#drop1{
+    display: none;
+}
+#drop3{
+    display: none;
+}
+
+.dr3{
+    background-color: transparent;
+    width: 41rem;
+    overflow: hidden;
+    height: 4rem;
+    transition: 5s ease-in-out;
+    position: relative;
+    padding: 1rem;
+    border: 2px solid var(--bleu--);
+    border-radius: 20px;
+    
+}
+.dr3 h1{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.dr3 p{
+    max-width: 100%;
+    color: var(--bleu--);
+}
+#drop3:checked ~ .dr3{
+ height: auto;
+ transition: 5s ease-in-out;
+}
+
+
+
+.plusss{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: var(--bleu--);
+    font-size: 30px;
+}
+   .faqcontent{
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+   }
+   @media All and (max-width: 800px){
+    .dr3{
+        width: 100%;
+    }
+    .dr2{
+        width: 100%;
+    }
+    .dr1{
+        width: 100%;
+    }
+   }
+   @media All and (max-width: 450px){
+    .dr3{
+        width: 100%;
+    }
+    .dr2{
+        width: 100%;
+    }
+    .dr1{
+        width: 100%;
+    }
+    .faqcontent{
+        display: block;
+    }
+    .dr2 h1{
+        font-size: 15px;
+    }
+    .dr1 h1{
+        font-size: 15px;
+    }
+    .dr3 h1{
+        font-size: 15px;
+    }
+   }

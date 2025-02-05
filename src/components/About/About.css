@@ -1,0 +1,118 @@
+.about-con1 img{
+    height: 20rem;
+    width: 100%;
+    transition: 1s ease-in-out;
+    border-radius: 50%;
+}
+
+
+.about-con1{
+    border: 1px solid var(--bleu--);
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 10px 20px rgba(0, 0, 255, 0.196);
+   border-radius: 50%;
+    transition: 1s ease-in-out;
+ backdrop-filter: blur(30px);
+ background-color: rgba(0, 0, 0, 0.068);
+
+
+}
+
+.about{
+    display: flex;
+   width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    place-items: center;
+}
+.about-content{
+    display: flex;
+    place-items: center;
+    gap: 30px;
+}
+
+    
+
+.about-con2 p{
+    max-width: 40rem;
+    color: var(--white--);
+    
+}
+.about-con2  .abosp{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+}
+.about-con2 h1{
+    color: var(--white--);
+    font-weight: normal;
+}
+.about-con2 h2{
+    font-size: 30px;
+    color: var(--white--);
+}
+.about-con2 .abotn{
+    color: var(--bleu--);
+}
+.about-con2 h3{
+    font-size: 25px;
+    color: var(--white--);
+}
+.about-con2 button{
+    height: 3rem;
+    width: 7rem;
+    background-image: var(--linear--);
+    border: none;
+    color: var(--fontwhite--);
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+}
+.about-con2 button:hover{
+    background-color: transparent;
+    border: 2px solid var(--bleu--);
+    background-image: none;
+}
+@media All and (max-width: 1000px){
+    .about-content{
+        display: block;
+    }
+    .about-con2{
+        place-items: center;
+        padding: 1rem;
+    }
+    .about-con2 p{
+        text-align: start;
+        
+    }
+    .about-con2 h1{
+        text-align: center;
+    }
+    .about-con2 h2{
+        text-align: center;
+    }
+    .about-con2 h3{
+        text-align: center;
+    }
+}
+@media All and (max-width: 473px){
+    .about-con1 img{
+        height: 15rem;
+        width: 20rem;
+    }
+    .about-con2 p{
+        text-align: start;
+        font-size: 10px;
+    }
+    
+}
+@media All and (max-width: 320px){
+    .about-con1 img{
+        height: 10rem;
+        width: 16rem;
+    }
+    
+}

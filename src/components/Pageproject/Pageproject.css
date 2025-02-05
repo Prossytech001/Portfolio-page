@@ -1,0 +1,985 @@
+.pageproter{
+    place-items: center;
+    padding-top: 8rem;
+    
+    
+}
+.pageproter h1{
+    font-size: 30px;
+    color: var(--bleu--);
+}
+.pageproter .fp{
+    color:var(--white--) ;
+}
+.pagepro-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    place-items: center;
+    gap: 10px;
+    padding: 1rem;
+    position: relative;
+}
+.propag{
+    width: 100%;
+    height: 18rem;
+    background-image: linear-gradient(rgba(2, 15, 59, 0.425),rgba(0, 0, 0, 0.342)),url(../../Assets/project/dashboard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(-100px);
+    border-radius: 20px;
+
+
+    
+}
+.propag:hover{
+    background-image: var(--inear--),url(../../Assets/project/dashboard.png);
+}
+.propagz{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/coffe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+  
+}
+.propagz:hover{
+    background-image: var(--inear--),url(../../Assets/project/coffe.png);
+}
+.propage{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/ecommer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+  
+}
+.propage:hover{
+    background-image: var(--inear--),url(../../Assets/project/ecommer.png);
+}
+.propagf{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/dashboard4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.propagf:hover{
+    background-image: var(--inear--),url(../../Assets/project/dashboard4.png);
+}
+.propagh{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/food1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.propagh:hover{
+    background-image: var(--inear--),url(../../Assets/project/food1.png);
+}
+.propagi{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.propagi:hover{
+    background-image: var(--inear--),url(../../Assets/project/green.png);
+}
+.propagj{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.propagj:hover{
+    background-image: var(--inear--),url(../../Assets/project/mobile.png);
+}
+.propagk{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/garden.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.propagk:hover{
+    background-image: var(--inear--),url(../../Assets/project/garden.png);
+}
+.propagl{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/poetry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background-position: center;
+    object-fit: cover;
+}
+.propagl:hover{
+    background-image: var(--inear--),url(../../Assets/project/poetry.png);
+}
+.propagm{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/cream.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+   
+    object-fit: contain;
+}
+.propagm:hover{
+    background-image: var(--inear--),url(../../Assets/project/cream.png);
+}
+.propagn{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/work.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    background-position: center;
+
+}
+.propagn:hover{
+    background-image: var(--inear--),url(../../Assets/project/work.png);
+}
+.propago{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(24, 69, 218, 0.425),rgba(0, 0, 0, 0.26)),url(../../Assets/project/stame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.propago:hover{
+    background-image: var(--inear--),url(../../Assets/project/stame.png);
+}
+.procontent p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+   
+    margin-bottom: 20px;
+   
+}
+.procontena p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.procontena{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propag:hover .proicon{
+    top: 9px;
+}
+.propag:hover .procontena{
+    top: 10%;
+}
+.procontenb p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out;
+   
+}
+.propage:hover .proicon{
+    top: 9px;
+}
+.propage:hover .procontenb{
+    top: 10%;
+}
+.procontenb{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s;
+    
+}
+.procontenc p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+ 
+    margin-bottom: 20px;
+   
+}
+.propagf:hover .proicon{
+    top: 9px;
+}
+.propagf:hover .procontenc{
+    top: 10%;
+}
+
+.procontenc{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.procontend p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.procontend{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagh:hover .proicon{
+    top: 9px;
+}
+.propagh:hover .procontend{
+    top: 10%;
+}
+
+.procontene p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.procontene{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagi:hover .proicon{
+    top: 9px;
+}
+.propagi:hover .procontene{
+    top: 10%;
+}
+.procontenf p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.procontenf{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagj:hover .proicon{
+    top: 9px;
+}
+.propagj:hover .procontenf{
+    top: 10%;
+}
+.proconteng p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.proconteng{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagk:hover .proicon{
+    top: 9px;
+}
+.propagk:hover .proconteng{
+    top: 10%;
+}
+.procontenh p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.procontenh{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagl:hover .proicon{
+    top: 9px;
+}
+.propagl:hover .procontenh{
+    top: 10%;
+}
+.proconteni p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.proconteni{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagm:hover .proicon{
+    top: 9px;
+}
+.propagm:hover .proconteni{
+    top: 10%;
+}
+.procontenj p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+    
+    margin-bottom: 20px;
+   
+}
+.procontenj{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagn:hover .proicon{
+    top: 9px;
+}
+.propagn:hover .procontenj{
+    top: 10%;
+}
+.procontenk p{
+    font-size: 19px;
+    color: var(--fontwhite--);
+   
+    margin-bottom: 20px;
+   
+}
+.procontenk{
+   visibility: hidden;
+   transition: 1.5s ease-in-out;
+   padding: 1rem;
+   margin-top: 25px;
+   
+    
+}
+.propago:hover .proicon{
+    top: 9px;
+}
+.propago:hover .procontenk{
+    visibility: visible;
+}
+.prosiconbtn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.proiconin{
+    gap: 10px;
+    display: flex;
+    font-size: 20px;
+    color: var(--bleu--);
+    place-items: center;
+}
+.prosiconbtn label{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: transparent;
+    background-image: var(--linear--);
+    border: none;
+    border-radius: 10px;
+    color: var(--fontwhite--);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.procontent{
+    padding: 1rem;
+    position: absolute;
+    top: -100%;
+    transition: 0.5s ease-in-out;
+    
+}
+.propagz:hover .procontent{
+    top: 10%;
+}
+.proicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    color: var(--purple--);
+    transition: 0.3s;
+
+}
+.firtprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#ftpg:checked ~ .firtprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#ftpg:checked ~ .ovemlay{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+
+.secprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#stpg:checked ~ .secprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#stpg:checked ~ .ovemlaa{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+
+.tirprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#ttpg:checked ~ .tirprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#ttpg:checked ~ .ovemlab{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+
+.fouprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#otpg:checked ~ .fouprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#otpg:checked ~ .ovemlac{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+.fivprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#itpg:checked ~ .fivprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#itpg:checked ~ .ovemlad{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+.sixprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#xtpg:checked ~ .sixprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#xtpg:checked ~ .ovemlae{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+.sevprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#vtpg:checked ~ .sevprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#vtpg:checked ~ .ovemlaf{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+
+.eigprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#htpg:checked ~ .eigprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#htpg:checked ~ .ovemlag{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+
+
+.tenprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#ntpg:checked ~ .tenprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#ntpg:checked ~ .ovemlah{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+.eleprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#tetpg:checked ~ .eleprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#tetpg:checked ~ .ovemlai{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+
+.twfprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#eltpg:checked ~ .twfprojpage{
+    left: 10%;
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#eltpg:checked ~ .ovemlaj{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+
+}
+
+
+
+.ttiprojpage{
+    height: 90%;
+    background-color: aqua;
+    width: 80%;
+    position: fixed;
+    top: 30px;
+    right: 10%;
+    bottom: 10%;
+    left: -100%;
+    place-items: center;
+    z-index: 2;
+    display: grid;
+   overflow-x: auto;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   scrollbar-width: none;
+    
+  
+   
+}
+#twtpg:checked ~ .ttiprojpage{
+    left: 10%;
+
+   
+    background-color: rgba(255, 115, 0, 0);
+}
+#twtpg:checked ~ .ovemlak{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.897);
+    top: 0;
+    z-index: 2;
+    left: 0;
+    
+
+}
+
+#ftpg{
+    display: none;
+}
+#stpg{
+    display: none;
+}
+#ttpg{
+    display: none;
+}
+#otpg{
+    display: none;
+}
+#itpg{
+    display: none;
+}
+#xtpg{
+    display: none;
+}
+#vtpg{
+    display: none;
+}
+#htpg{
+    display: none;
+}
+#ntpg{
+    display: none;
+}
+#tetpg{
+    display: none;
+}
+#eltpg{
+    display: none;
+}
+#twtpg{
+    display: none;
+}
+.ri{
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--bleu--);
+    position: fixed;
+    top: 3rem;
+    
+}
+.pageproter img{
+    height: 30rem;
+    width: 30rem;
+} 
+@media All and (max-width: 500px){
+    .pagepro-con{
+        display: grid;
+        grid-template-columns: 1fr  ;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        place-items: center;
+        gap: 10px;
+        padding: 1rem;
+        position: relative;
+    }
+}

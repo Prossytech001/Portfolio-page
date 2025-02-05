@@ -1,0 +1,369 @@
+.navbar{
+    background-color: transparent;
+    backdrop-filter: blur(60px);
+    display: flex;
+    width: 90%;
+    place-items: center;
+    justify-content: space-evenly;
+    padding: 0 px;
+    position: fixed;
+    
+    z-index: 2;
+    border-radius: 30px;
+    border: 1px solid var(--bleu--);
+    margin-top: 10px;
+    
+    
+}
+.navbaf{
+    display: flex;
+    justify-content: center;
+}
+.navlogo{
+    display: flex;
+    place-items: center;
+}
+.navlogo h1{
+    font-size: 30px;
+    color: var(--white--);
+    font-family: var(--Poppins--);
+}
+.navlist ul {
+    display: flex;
+    place-items: center;
+    gap: 20px;
+    
+
+}
+.navlist ul li a{
+    color: var(--white--);
+    font-family: var(--Poppins--);
+    font-size: 20px;
+    transition: 1s;
+   /* -webkit-text-stroke: .7px blue;
+    -webkit-text-fill-color: transparent;*/
+    
+}
+.navlist ul li{
+    transition: 0.5 ease-in-out
+}
+.navlist ul li:hover{
+    transform: scale(1.2);
+    
+}
+.navlist ul li a:active{
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+}
+.navlist ul li a:hover{
+    transform: scale(1.2);
+    background-image: var(--linear--);
+    background-clip: text;
+    color: transparent;
+}
+
+    
+.navicon{
+    display: flex;
+    place-items: center;
+    gap: 20px;
+    
+}
+.navlogo svg{
+   height: 60px;
+   width: 60px;
+    fill: var(--bleu--);
+}
+.navi {
+    background-color: rgba(75, 74, 74, 0.527);
+    color: var(--white--);
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+}
+.navbtn button{
+    height: 40px;
+    width: 7rem;
+    background-image: var(--linear--);
+    border: none;
+    color: var(--fontwhite--);
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.navbtn button:hover{
+    background-image: none;
+    border: 2px solid var(--bleu--);
+    background-color: transparent;
+    color: var(--bleu--);
+    
+}
+.link-container{
+   top: 0px;
+   left: -100%;
+    background-color: var(--bgblack--);
+    width: auto;
+    height: 100vh;
+    position: fixed;
+   padding: 0 30px;
+   z-index: 1;
+   transition: 0.5s;
+}
+.sidebars  .logs{
+    place-items: center;
+    color: var(--white--);
+    display: flex;
+    font-size: 20px;
+
+}
+
+
+    
+    
+
+
+.sidebars  .logs svg{
+    height: 45px;
+    width: 45px;
+    fill: var(--bleu--);
+}
+.sidebars  li {
+    font-size: 25px;
+    color: var(--white--);
+    line-height: 4rem;
+    width: 100%;
+    
+    
+    
+    
+}
+.sidebars  li {
+    transition: 1s ease-in-out;
+    padding: 0 10px;
+    
+   
+}
+.togsnavs{
+    color: var(--white--);
+}
+.sidebars  li:hover{
+    
+    background-color: var(--bleu--);
+}
+#sideOff{
+    color: var(--white--);
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.open-sidebar-button{
+    display: none;
+    font-size: 40px;
+    color: var(--bleu--);
+    font-weight: bolder;
+    
+}
+.svlo{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+.close-sidebar-button{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 7rem;
+    color: var(--bleu--);
+}
+#sidebar-active{
+    display: none;
+}
+.togsnavs{
+    display: flex;
+    place-items: center;
+    gap: 10px;
+}
+
+
+@media (max-width: 1061px){
+    .open-sidebar-button,.close-sidebar-button{
+        display: flex;
+        color: var(--bleu--);
+        place-items: center;
+    }
+    #sidebar-active:checked ~ .link-container{
+    left: -5%;
+    }
+    .navbtn{
+        display: none;
+    }
+    .togsnav{
+        display: none;
+    }
+    #sidebar-active:checked ~ #overlay{
+        background-color: rgba(245, 222, 179, 0.075);
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: -10px;
+        right: -50px;
+        
+    }
+    .mun{
+        background-color: azure;
+        z-index: -1;
+    }
+    #live:checked ~ .link-container{
+        display: flex;
+    }
+    .navlist{
+        display: none;
+    }
+    .navi{
+        display:none ;
+    }
+}
+@media All and (max-width: 498px){
+    .navbar{
+        width: 100%;
+        border: none;
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.226);
+       margin-top: 0;
+       padding: 10px 0;
+    border-radius: 0;
+    }
+
+    .navlogo svg{
+        height: 40px;
+        width: 40px;
+    }
+    .navlogo h1{
+        font-size: 25px;
+    }
+    .navdl{
+        display: none;
+    }
+    .navbtn button{
+        height: 25px;
+        width: 5rem;
+        font-size: 13px;
+    }
+}
+@media All and (max-width: 370px){
+    .switch-mode >div{
+        height: 1rem;
+        width: 1rem;
+    }
+    .switch-mode{
+        height: 1.1rem;
+        width: 2rem;
+        
+    }
+}
+@media All and (max-width: 899px){
+    img {
+        width: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#theme-switch{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--bleu--);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: none;
+    
+    
+}
+
+#theme-switch svg:last-child{
+    display: none;
+    fill: rgb(136, 222, 44);
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+    fill: rgb(4, 214, 241);
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+.switch-mode{
+    height: 1.5rem;
+    width: 3rem;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+.switch-mode >div{
+    background-color: white;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    
+
+}
+.dark{
+    justify-content: flex-end;
+}
+

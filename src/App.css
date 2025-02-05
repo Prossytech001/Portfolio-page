@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+  --bleu--:#0000ff;
+  --purple--:#a312fb;
+  --white-- : #ffffff;
+  --bgblack--: #020512;
+  --grey--: #0e1a40;
+  --fontwhite--: #ffffff;
+  --linear--: linear-gradient(to right,#0000ff,#a312fb);
+  --Poppins--: Poppins;
+  --EduAustraliaVICWANTHandArrowsEdu--: "Edu AU VIC WA NT Arrows", serif;
+  --linea--: linear-gradient(45deg,#0000ff,#a312fb,pink,green,purple);
+  --smoke--: #01011f;
+  --lincircle--: radial-gradient(#2323fb65 , #000000);
+  --shadow--: #a3a3ac17;
+  transition: all 2s ease-in-out; 
+  --inear--: linear-gradient(to right,#0000ff63,#a212fb3b);
+  --code--: #272822;
+ 
+  --shas--:#7600e5af;
+  
+
+}
+.darkmode{
+  --bleu--:#0000ff;
+  --purple--:#a312fb;
+  --white-- : #000000;
+  --bgblack--: #ffffff;
+  --grey--: #7d7d82;
+  --fontwhite--: #ffffff;
+  --smoke--: #f1f1f1;
+  --lincircle--: radial-gradient(#2323fb65 , #ffffff);
+  --shadow--: rgba(255, 255, 255, 0.491);
+  transition: all 2s ease-in-out;
+  --shas--:#004ce5af;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+  scroll-behavior: smooth;
+}
+body{
+  font-family: var(--Poppins--);
+  background-color: var(--bgblack--);
+ backdrop-filter: blur(100%);
+ 
+}
+
+ 
+
