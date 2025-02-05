@@ -41,7 +41,7 @@ const About = () => {
                 <h2>I am <span className='abotn'> Onyebuchi Prosper</span></h2>
                 <h3>An Enthusiastic Fullstack Developer</h3>
                 <p>Welcome to my corner of the digital world! I'm a passionate fullstack developer with a knack for crafting innovative web solutions that blend seamless functionality with stunning design. With a strong foundation in both front-end and back-end technologies, I thrive on turning ideas into reality through clean code and intuitive user experiences.</p>
-                <Link to='contact' offset={-100} spy={true}><button>Contact Me</button></Link>
+                <Link to='contact' offset={-100} spy={true} className='mecony'><button>Contact Me</button></Link>
             </div>
         </motion.div>
         

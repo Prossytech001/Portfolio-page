@@ -15,6 +15,9 @@
     transition: 1s ease-in-out;
  backdrop-filter: blur(30px);
  background-color: rgba(0, 0, 0, 0.068);
+ display: flex;
+ place-items: center;
+ justify-content: center;
 
 
 }
@@ -71,6 +74,11 @@
     cursor: pointer;
 
 }
+.mecony{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
 .about-con2 button:hover{
     background-color: transparent;
     border: 2px solid var(--bleu--);
@@ -116,7 +124,8 @@
 @media All and (max-width: 320px){
     .about-con1 img{
         height: 10rem;
-        width: 16rem;
+        
+        width: 100%;
     }
     
 }

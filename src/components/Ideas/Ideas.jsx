@@ -19,6 +19,7 @@ const Ideas = () => {
   return (
     <section className='ideas'>
       
+      
       <div className="ideacon">
         <motion.h1
         variants={fadeIn("down", 0.2)}

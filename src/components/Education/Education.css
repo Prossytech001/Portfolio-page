@@ -12,10 +12,15 @@
     background-clip: text;
     margin-bottom: 40px;
 }
+.educontainer{
+    place-items: center;
+}
 .eduction{
     place-items: center;
     min-height: 80vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
    
 }
 .educon1{

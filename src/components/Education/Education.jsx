@@ -8,6 +8,7 @@ import { fadeIn } from '../Variants.jsx';
 const Education = () => {
   return (
     <section className='eduction' id='e'>
+        <div className="educontainer">
         <motion.h1
         variants={fadeIn("down", 0.4)}
         initial={{ opacity: 0 }}
@@ -56,7 +57,7 @@ const Education = () => {
                 </div>
             </div>
         </motion.div>
-      
+        </div>
     </section>
   )
 }

@@ -76,12 +76,20 @@
 .contactcon1 p{
     font-size: 28px;
     color: var(--white--);
+    display: flex;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
 }
 .contactcon1 h1{
     background-image: var(--linear--);
     background-clip: text;
     color: transparent;
     font-size: 5rem;
+    display: flex;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
 }
 .contacticon{
     margin-top: 3rem;
