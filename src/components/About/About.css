@@ -98,6 +98,7 @@
 @media All and (max-width: 1000px){
     .about-content{
         display: block;
+        place-items: center;
     }
     .about-con2{
         place-items: center;
