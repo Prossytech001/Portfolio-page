@@ -11,10 +11,12 @@
 .update h1{
     font-size: 25px;
     color: var(--white--);
+    text-align: center;
 }
 .update h2{
     font-size: 50px;
     color: var(--white--);
+    text-align: center;
 }
 .updateinp{
     place-items: center;

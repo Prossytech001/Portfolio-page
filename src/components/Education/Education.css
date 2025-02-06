@@ -53,6 +53,11 @@ font-size: 1rem;
     color: var(--white--);
 
 }
+.eedu{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 .eduicon{
 animation: bounce 5s infinite;
 }

@@ -7,9 +7,11 @@
 .pageproter h1{
     font-size: 30px;
     color: var(--bleu--);
+    text-align: center;
 }
 .pageproter .fp{
     color:var(--white--) ;
+    text-align: center;
 }
 .pagepro-con{
     display: grid;
