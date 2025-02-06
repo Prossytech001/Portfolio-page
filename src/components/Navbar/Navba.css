@@ -7,7 +7,7 @@
     justify-content: space-evenly;
     padding: 0 px;
     position: fixed;
-    
+    top: 0;
     z-index: 2;
     border-radius: 30px;
     border: 1px solid var(--bleu--);
