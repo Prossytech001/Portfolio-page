@@ -95,6 +95,12 @@
     border: 2px solid var(--bleu--);
     background-image: none;
 }
+.letmeshow{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 @media All and (max-width: 1000px){
     .about-content{
         display: block;

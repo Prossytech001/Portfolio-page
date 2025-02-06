@@ -29,11 +29,13 @@ const About = () => {
           
           
           <label id='overlay' htmlFor="sidebar-active"></label>
+          <div className="letmeshow">
             <div 
              
 
 
             className="about-con1"><img src={img} alt="" /></div>
+            </div>
             <div
            
             className="about-con2">

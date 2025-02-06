@@ -1,5 +1,5 @@
 .navbar{
-    background-color: transparent;
+    background-color: var(--blue--);
     backdrop-filter: blur(60px);
     display: flex;
     width: 90%;
@@ -236,7 +236,7 @@
     .navbar{
         width: 100%;
         border: none;
-      box-shadow: 0 0 10px rgba(0, 0, 255, 0.226);
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.144);
        margin-top: 0;
        padding: 10px 0;
     border-radius: 0;
