@@ -379,6 +379,9 @@ tfoot{
     }
 }
 @media All and (max-width: 553px){
+    .hero{
+        min-height: 100vh;
+    }
     .hlq h1{
         font-size: 12px;
     }
@@ -430,9 +433,7 @@ tfoot{
     }
 }
 @media All and (max-width: 440px){
-    .hero{
-        min-height: 100vh;
-    }
+    
     .herotriang{
         font-size: 3rem;
     }
