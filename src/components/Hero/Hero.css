@@ -1,6 +1,6 @@
 .hero{
     width: 100%;
-    min-height: 100vh;
+    min-height: 130vh;
     position: relative;
     place-items: center;
     display: flex;
@@ -41,6 +41,24 @@
     right: 20%;
    
     animation: tri 30s linear infinite;
+}
+thead{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+tbody{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+tfoot{
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .herotriang{
     font-size: 5rem;
@@ -246,18 +264,20 @@
     display: flex;
     place-items: center;
     justify-content: center;
-}
-.hero-con5 table tr {
-    gap: 6rem;
-    justify-content: space-between;
-    color: var(--white--);
-    display: flex;
     text-align: center;
-  justify-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
 }
-.hero-con5 table tr .th{
-    font-size: 4rem;
-    font-weight: bolder;
+.hero-con5 .th {
+   color: var(--white--);
+    text-align: center;
+  font-size: 40px;
+}
+.hero-con5 .tb,.tf{
+    font-size: 18px;
+   
+    color: var(--white--);
 }
 .herosbut{
     display: flex;
@@ -410,6 +430,9 @@
     }
 }
 @media All and (max-width: 440px){
+    .hero{
+        min-height: 100vh;
+    }
     .herotriang{
         font-size: 3rem;
     }

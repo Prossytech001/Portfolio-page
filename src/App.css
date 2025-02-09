@@ -15,7 +15,7 @@
   --smoke--: #01011f;
   --lincircle--: radial-gradient(#2323fb65 , #000000);
   --shadow--: #a3a3ac17;
-  transition: all 2s ease-in-out; 
+  transition: all 1s ease-in-out; 
   --inear--: linear-gradient(to right,#0000ff63,#a212fb3b);
   --code--: #272822;
  --blue--:#01012461;

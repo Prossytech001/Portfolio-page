@@ -67,10 +67,10 @@ const Hero = () => {
               
               </motion.div>
       <motion.div 
-      variants={fadeIn("up", 2)}
+      variants={fadeIn("up", 0.5)}
       initial={{ opacity: 0 }}
       whileInView={"show"}
-      viewport={{once: false, amount: 0.7}}
+      viewport={{once: false, amount: 0.2}}
       
       className="hero-content2">
         <div className="hercons">
@@ -79,24 +79,30 @@ const Hero = () => {
               </div>
               
               <div className="hero-con5">
-              <table>
-                <tr>
-                  <td className='th'>3+</td>
-                  <td className='th'>50+</td>
-                  <td className='th'>50+</td>
-                </tr>
-                <tr>
-                  <td className='ts'>Years Working</td>
-                  <td className='ts'>Worldwide</td>
-                  <td className='ts'>Completed</td>
-                </tr>
-                <tr>
-                  <td className='tt'>Experience</td>
-                  <td className='tt'>Clients</td>
-                  <td className='tt'>
-                  Projects</td>
-                </tr>
-              </table>
+            
+               
+                  <div>
+                  <p className='th'>3+</p>
+                  <p className='tb'>Years Working </p>
+                  <p className='tf'>Experience</p>
+                  </div>
+              
+                
+                <div>
+                  <p className='th'>50+</p>
+                  <p className='tb'>Completed</p>
+                  <p className='tf'>Projects</p>
+                </div>
+               
+               
+                <div>
+                  <p className='th'>50+</p>
+                  <p className='tb'>Clients</p>
+                  <p className='tf'>Worldwide
+                  </p>
+                </div>
+               
+             
 
               </div>
               </div>

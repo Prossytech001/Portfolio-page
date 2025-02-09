@@ -197,7 +197,7 @@
 @media (max-width: 1061px){
     .open-sidebar-button,.close-sidebar-button{
         display: flex;
-        color: var(--bleu--);
+        color: var(--white--);
         place-items: center;
     }
     #sidebar-active:checked ~ .link-container{

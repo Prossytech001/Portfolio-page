@@ -1,11 +1,12 @@
 .contact{
     background-color: var(--smoke--);
     width: 100%;
-    height: 170vh;
+    height: auto;
     place-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    padding-top: 12rem;
+    
 }
 .contactinfo{
     background-color: var(--smoke--);
@@ -102,6 +103,7 @@
     place-items: center;
     justify-content: center;
 }
+
 .conput1 .lab{
     position: absolute;
     top: 30%;
@@ -143,7 +145,7 @@
 
   }
   .conput1 input{
-     width: 15rem;
+     width: 100%;
      height: 3rem;
   }
   .coninput3 textarea{
@@ -229,13 +231,13 @@
 }
 @media All and (max-width: 566px){
   .conput1 input{
-    width: 14rem;
+    width: 100%;
     height: 3rem;
  }
 }
 @media All and (max-width: 538px){
   .conput1 input{
-    width: 13rem;
+    width: 100%;
     height: 3rem;
  }
  .contactcon1 p{
@@ -247,44 +249,47 @@ font-size: 15px;
 }
 @media All and (max-width: 509px){
   .conput1 input{
-    width: 12rem;
+    width: 100%;
     height: 3rem;
  }
 }
 @media All and (max-width: 478px){
   .conput1 input{
-    width: 11rem;
+    width:100%;
     height: 3rem;
  }
 }
 @media All and (max-width: 449px){
   .conput1 input{
-    width: 10rem;
+    width: 100%;
     height: 3rem;
+ }
+ .conput1 .lab{
+  font-size: 10px;
  }
 }
 
 @media All and (max-width: 398px){
   .conput1 input{
-    width: 9rem;
+    width: 100%;
     height: 3rem;
  }
 }
 @media All and (max-width: 366px){
   .conput1 input{
-    width: 8rem;
+    width: 100%;
     height: 3rem;
  }
 }
 @media All and (max-width: 329px){
   .conput1 input{
-    width: 7rem;
+    width: 100%;
     height: 3rem;
  }
 }
 @media All and (max-width: 296px){
   .conput1 input{
-    width: 6rem;
+    width: 100%;
     height: 3rem;
  }
 }
