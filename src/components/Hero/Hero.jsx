@@ -1,9 +1,9 @@
 import React from 'react'
 import '../../App.css'
-
-
+import BreathCircle from '../../BreathCircle/index.jsx'
+import HeaderTitle from '../../HeaderTitle/index.jsx'
 import '../Hero/Hero.css';
-
+import img1 from '../../Assets/image/portfoliopic.png'
 import { fadeIn } from '../Variants.jsx';
 import {motion} from 'framer-motion';
 
@@ -20,12 +20,53 @@ const Hero = () => {
   return (
     <section className='hero'>
         <div class="jpt"></div>
+        
+       
+        <div className="herotrian"><IoExtensionPuzzle className="herotriang"/></div>
+        <div className="hrosqu"><PiTriangleFill className="hrosqu"/></div>
     <div class="ppt"></div>
     <div class="kpt"></div>
     <div class="mpt"></div>
       <label id='overla' htmlFor="sidebar-active"></label>
       <div className="hore">
-      <div className="hero-h1">Hello</div>
+      <div className="hreath"><HeaderTitle/></div>
+      <div className="breath"><BreathCircle/></div>
+      <div className="picimg"><img src={img1} alt="" /></div>
+      </div>
+      <div className="hercons">
+        <div className="hero-con3">
+      <p>Welcome to my corner of the digital world! I'm a passionate fullstack developer with a knack for crafting innovative web solutions that blend seamless functionality with stunning design.</p>
+              </div>
+              
+              <div className="hero-con5">
+            
+               
+                  <div>
+                  <p className='th'>3+</p>
+                  <p className='tb'>Years Working </p>
+                  <p className='tf'>Experience</p>
+                  </div>
+              
+                
+                <div>
+                  <p className='th'>50+</p>
+                  <p className='tb'>Completed</p>
+                  <p className='tf'>Projects</p>
+                </div>
+               
+               
+                <div>
+                  <p className='th'>50+</p>
+                  <p className='tb'>Clients</p>
+                  <p className='tf'>Worldwide
+                  </p>
+                </div>
+               
+             
+
+              </div>
+              </div>
+     {/* <div className="hero-h1">Hello</div>
       <div className="herotrian"><IoExtensionPuzzle className="herotriang"/></div>
       <div className="hrosqu"><PiTriangleFill className="hrosqu"/></div>
       <label id='overlay' htmlFor="sidebar-active"></label>
@@ -107,8 +148,8 @@ const Hero = () => {
               </div>
               </div>
       </motion.div>
-
-      </div>
+     */}
+      
       
     </section>
   )

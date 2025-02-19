@@ -1,6 +1,6 @@
 import React from 'react'
 import '../About/About.css'
-import img from '../../Assets/image/portfoliopic.jpg'
+import img from '../../Assets/image/portfoliopic.png'
 import '../../App.css'
 import {motion} from 'framer-motion';
 import { fadeIn } from '../Variants';

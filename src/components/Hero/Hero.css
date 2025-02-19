@@ -1,14 +1,48 @@
 .hero{
     width: 100%;
-    min-height: 130vh;
+    min-height: auto;
     position: relative;
     place-items: center;
-    display: flex;
+    display: block;
     justify-content: center;
     margin-top: 40px;
+    overflow: hidden;
     
    
 
+}
+.hreath{
+    place-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hore{
+   display: flex;
+   place-items: center;
+   justify-content: space-evenly;
+}
+.breath{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.picimg{
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   height: 100%;
+    width: 30rem;
+    right: 10%;
+    bottom: -10%;
+  
+    
+}
+.picimg img{
+   
+    width: 80%;
+    height:60%;
 }
 .hero-h1{
    font-size: 17rem;
@@ -134,10 +168,16 @@ tfoot{
 }
 .hercons{
     display: block;
-  z-index: 1;
+ padding: 30px;
   place-items: center;
    margin-top: 30px;
-   gap: 5rem;
+   border-radius: 20px;
+   background: rgba(100, 100, 100, 0.15);
+   width: 90%;
+   height: 100%;
+   border-top: 1px solid rgba(100, 100, 100, 1);
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 10px -0px;
+   backdrop-filter: blur(5px);
    
    
 }
@@ -209,7 +249,7 @@ tfoot{
     color: azure;
 }
 .hero-con3 p{
-    max-width: 30rem;
+   
    text-align: center;
     color: var(--white--);
    
@@ -378,7 +418,24 @@ tfoot{
         right: 2rem;
     }
 }
+@media All and (max-width: 835px){
+    .hore{
+        display: block;
+     }
+     .picimg{
+        bottom: -10%;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+     }
+}
 @media All and (max-width: 553px){
+    .hero-con5 .tb,.tf{
+        font-size: 10px;
+       
+        color: var(--white--);
+    }
     .hero{
         min-height: 100vh;
     }
