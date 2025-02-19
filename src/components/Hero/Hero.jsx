@@ -34,6 +34,7 @@ const Hero = () => {
       <div className="picimg"><img src={img1} alt="" /></div>
       </div>
       <div className="hercons">
+        <div className="hsidecon">
         <div className="hero-con3">
       <p>Welcome to my corner of the digital world! I'm a passionate fullstack developer with a knack for crafting innovative web solutions that blend seamless functionality with stunning design.</p>
               </div>
@@ -64,6 +65,7 @@ const Hero = () => {
                
              
 
+              </div>
               </div>
               </div>
      {/* <div className="hero-h1">Hello</div>
