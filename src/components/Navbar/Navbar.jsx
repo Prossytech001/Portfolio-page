@@ -18,7 +18,7 @@ import { PiSquaresFourThin } from "react-icons/pi";
 
 
 const Navbar = () => {
-      
+    
 
 
 
@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
         
         <input type="checkbox"  id='sidebar-active' className='suke'/>
-        <label id='overlay' htmlFor="sidebar-active"></label>
+        <label id='overlay' htmlFor="sidebar-active" ></label>
         <label htmlFor="sidebar-active" className='open-sidebar-button'>
           <PiSquaresFourThin/>
         </label>

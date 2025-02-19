@@ -219,7 +219,7 @@
 
 
 @media (max-width: 1061px){
-    .open-sidebar-button,.close-sidebar-button{
+   .open-sidebar-button,.close-sidebar-button{
         display: flex;
         color: var(--white--);
         place-items: center;
@@ -246,10 +246,10 @@
     .mun{
         background-color: azure;
         z-index: -1;
-    }
+    }/*
     #live:checked ~ .link-container{
         display: flex;
-    }
+    }*/
     .navlist{
         display: none;
     }
