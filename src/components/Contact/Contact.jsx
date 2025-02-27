@@ -31,6 +31,12 @@ const Contact = () => {
           document.getElementById('output').style.color = 'red';
         },
       );
+      document.getElementById("firstname").value = "";
+      document.getElementById("secondname").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("number").value = "";
+        document.getElementById("comment").value = "";
+
   };
   return (
     <section className='contact'>

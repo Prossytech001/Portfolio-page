@@ -18,7 +18,6 @@ import { PiSquaresFourThin } from "react-icons/pi";
 
 
 const Navbar = () => {
-    
 
 
 
@@ -78,11 +77,11 @@ const Navbar = () => {
 
         
         </div>
-        
-        <input type="checkbox"  id='sidebar-active' className='suke'/>
+        <input type="checkbox" id='sidebar-active'/>
+
         <label id='overlay' htmlFor="sidebar-active" ></label>
-        <label htmlFor="sidebar-active" className='open-sidebar-button'>
-          <PiSquaresFourThin/>
+        <label htmlFor="sidebar-active"className='open-sidebar-button' >
+          <PiSquaresFourThin />
         </label>
         
         
@@ -96,7 +95,7 @@ const Navbar = () => {
         
         
         <ul className='sidebars'>
-         <label htmlFor="sidebar-active" className='close-sidebar-button logs'>
+         <label htmlFor="sidebar-active" className='close-sidebar-button logs' >
         <div className="svlo"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M791-55 280-566l-87 87 183 183-56 56L80-480l143-143L55-791l57-57 736 736-57 57Zm-54-282-57-57 87-87-183-183 56-56 240 240-143 143Z"/></svg>PT</div>
         <RxCross2 />
         
