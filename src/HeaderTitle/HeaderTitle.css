@@ -2,6 +2,11 @@
   max-width: 100%;
   max-height: 100%;
 }
+.headerh1{
+  font-size: 40px;
+  color: var(--white--);
+  position: absolute;
+}
 #text path{
   fill: var(--white--);
 }
@@ -50,5 +55,12 @@
   .header__title {
     max-width: 50%;
   max-height: 50%;
+  }
+}
+@media All and (max-width: 580px){
+  .headerh1{
+    font-size: 30px;
+    color: var(--white--);
+    position: absolute;
   }
 }

@@ -2,25 +2,19 @@ import React from 'react'
 import '../Education/Education.css'
 import { FaAward } from "react-icons/fa"
 import '../../App.css'
-import {motion} from 'framer-motion';
-import { fadeIn } from '../Variants.jsx';
+
+
 
 const Education = () => {
   return (
     <section className='eduction' id='e'>
         <div className="educontainer">
-        <motion.h1
-        variants={fadeIn("down", 0.4)}
-        initial={{ opacity: 0 }}
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.3}}
+        <h1
         
-        className='eedu'>Education</motion.h1>
-        <motion.div
-        variants={fadeIn("down", 0.2)}
-        initial={{ opacity: 0 }}
-            whileInView={"show"}
-            viewport={{once: false, amount: 0.7}}
+        
+        className='eedu'>Education</h1>
+        <div
+       
         
         className="educon">
             <div className="educon1">
@@ -56,7 +50,7 @@ const Education = () => {
                    <h3>Jenga institute</h3>
                 </div>
             </div>
-        </motion.div>
+        </div>
         </div>
     </section>
   )

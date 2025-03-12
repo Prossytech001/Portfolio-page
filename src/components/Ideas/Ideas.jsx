@@ -21,27 +21,16 @@ const Ideas = () => {
       
       
       <div className="ideacon">
-        <motion.h1
-        variants={fadeIn("down", 0.2)}
-                initial={{ opacity: 0 }}
-                    whileInView={"show"}
-                    viewport={{once: false, amount: 0.3}}
+        <h1
+       
         
-        className='idhk'>My <span className='idespsn'>Clients</span></motion.h1>
-        <motion.p 
-        variants={fadeIn("down", 0.4)}
-                initial={{ opacity: 0 }}
-                    whileInView={"show"}
-                    viewport={{once: false, amount: 0.3}}
-        className='idpk'>Testimonies</motion.p>
+        className='idhk'>My <span className='idespsn'>Clients</span></h1>
+        <p className='idpk'>Testimonies</p>
       </div>
 
       <div className="ideaing">
         <div 
-        variants={fadeIn("down", 0.6)}
-                initial={{ opacity: 0 }}
-                    whileInView={"show"}
-                    viewport={{once: false, amount: 0.3}}
+       
         className='slide-wrapper'>
                
              

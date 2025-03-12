@@ -36,7 +36,7 @@
    height: 100%;
     width: 30rem;
     right: 10%;
-    bottom: -10%;
+    bottom: -13%;
   
     
 }
@@ -322,17 +322,18 @@ tfoot{
     color: var(--white--);
 }
 .herosbut{
-    display: flex;
+    display: none;
     place-items: center;
-    
+   
     justify-content: center;
     margin: 20px 0;
+   
 }
 .hero-btn{
     display: flex;
     justify-content: center;
    width: 17rem;
-   background-color: #383d5265;
+
     align-items: center;
     place-items: center;
     border-radius: 40px;
@@ -425,7 +426,7 @@ tfoot{
         display: block;
      }
      .picimg{
-        bottom: -10%;
+        bottom: -13%;
         right: 0;
         left: 0;
         width: 100%;
@@ -491,8 +492,10 @@ tfoot{
        
     }
 }
-@media All and (max-width: 440px){
-    
+@media All and (max-width: 450px){
+    .herosbut{
+        display: flex;
+    }
     .herotriang{
         font-size: 3rem;
     }

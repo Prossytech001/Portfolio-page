@@ -4,7 +4,7 @@ import { ImPhoneHangUp } from "react-icons/im";
 import { CiAt } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 import '../../App.css'
-import {motion} from 'framer-motion';
+
 import { fadeIn } from '../Variants.jsx';
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -42,20 +42,20 @@ const Contact = () => {
     <section className='contact'>
         <div className="contact-con">
             <div className="contactcon1">
-                <motion.p
+                <p
                 variants={fadeIn("down", 0.2)}
                         initial={{ opacity: 0 }}
                             whileInView={"show"}
                             viewport={{once: false, amount: 0.3}}
-                >Got Some question?</motion.p>
-                <motion.h1
+                >Got Some question?</p>
+                <h1
                 variants={fadeIn("down", 0.4)}
                         initial={{ opacity: 0 }}
                             whileInView={"show"}
                             viewport={{once: false, amount: 0.3}}
-                >Contact Me</motion.h1>
+                >Contact Me</h1>
             </div>
-            <motion.div
+            <div
             variants={fadeIn("down", 0.6)}
                     initial={{ opacity: 0 }}
                         whileInView={"show"}
@@ -114,7 +114,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </div>
       
     </section>

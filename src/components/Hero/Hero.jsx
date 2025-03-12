@@ -32,6 +32,16 @@ const Hero = () => {
       <div className="hreath"><HeaderTitle/></div>
       <div className="breath"><BreathCircle/></div>
       <div className="picimg"><img src={img1} alt="" /></div>
+      <div className="herosbut">
+      <div className="hero-btn">
+                
+      <Link to='/contact' className='herohire'>Hire me</Link>
+      <Link to='/featuredpost' className='herohir' > My works</Link>
+                
+             </div>
+             
+              
+              </div>
       </div>
       <div className="hercons">
         <div className="hsidecon">
@@ -92,23 +102,7 @@ const Hero = () => {
           
       </div>
       <label id='overlay' htmlFor="sidebar-active"></label>
-      <motion.div 
-      variants={fadeIn("up", 2)}
-      initial={{ opacity: 1}}
-      whileInView={"show"}
-      viewport={{once: false, amount: 0.7}}
       
-      
-      className="herosbut">
-      <div className="hero-btn">
-                
-      <Link to='/contact' className='herohire'>Hire me</Link>
-      <Link to='/featuredpost' className='herohir' > My works</Link>
-                
-             </div>
-             
-              
-              </motion.div>
       <motion.div 
       variants={fadeIn("up", 0.5)}
       initial={{ opacity: 0 }}

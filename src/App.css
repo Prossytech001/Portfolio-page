@@ -6,20 +6,20 @@
   --purple--:#a312fb;
   --white-- : #ffffff;
   --whte-- : #ffffff;
-  --bgblack--: #020512;
+  --bgblack--:black;
   --grey--: #0e1a40;
   --fontwhite--: #ffffff;
   --linear--: linear-gradient(to right,#0000ff,#a312fb);
   --Poppins--: Poppins;
   --EduAustraliaVICWANTHandArrowsEdu--: "Edu AU VIC WA NT Arrows", serif;
   --linea--: linear-gradient(45deg,#0000ff,#a312fb,pink,green,purple);
-  --smoke--: #01011f;
+  --smoke--: #000;
   --lincircle--: radial-gradient(#2323fb65 , #000000);
   --shadow--: #a3a3ac17;
-  transition: all 1s ease-in-out; 
+
   --inear--: linear-gradient(to right,#0000ff63,#a212fb3b);
   --code--: #272822;
- --blue--:#01012461;
+  --blue--:#01012461;
   --shas--:#7600e5af;
  
 
@@ -36,7 +36,7 @@
   --smoke--: #f1f1f1;
   --lincircle--: radial-gradient(#2323fb65 , #ffffff);
   --shadow--: rgba(255, 255, 255, 0.491);
-  transition: all 2s ease-in-out;
+ 
   --shas--:#004ce5af;
 }
 *{
